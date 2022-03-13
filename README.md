@@ -29,18 +29,16 @@ Access for the in-depth description of each variable in set can be accessed [her
 - Finally, we will use all those informations to create logistic regression model using machine learning algorithms in ##Python and visualize our data sets using ##Tableau.
 
 ## Built with: 
-- SQL Languages:
- + SQL
- + MySQL
- + Oracle SQL
+- SQL Languages: SQL, MySQL, Oracle SQL
+
 - Tools:
- + Lucid Charts
- + Talend
- + Tableau
- + Oracle SQL DB
- + DB Browser for SQLite
+ . Lucid Charts
+ . Talend
+ . Tableau
+ . Oracle SQL DB
+ . DB Browser for SQLite
 - Python:
- + Jupyter Notebook
+ . Jupyter Notebook
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
