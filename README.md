@@ -6,18 +6,18 @@
 
 - This data set is published on Kaggle.com. We will clean the data set to detect missing values, impute missing values, and start to answer those questions:
     
-    1) Based on duration of the song, have songs gotten shorter recently to fit tiktok model of popularization?
+   1) Based on duration of the song, have songs gotten shorter recently to fit tiktok model of popularization?
  
-    2) Compare average Danceability score of 200 top songs with top 10 having highest streamings, are people liking more danceable music 
+   2) Compare average Danceability score of 200 top songs with top 10 having highest streamings, are people liking more danceable music 
  because of tiktok’s influence?
  
-    3) What genres are more popular now that they were previously?
+   3) What genres are more popular now that they were previously?
  
-    4) Are Lyrics more important now or is production more important today? Using speechiness API, song lyrics of top 100 hits in Spotify dataset to evaluate the meaningfulness and positiveness.
+   4) Are Lyrics more important now or is production more important today? Using speechiness API, song lyrics of top 100 hits in Spotify dataset to evaluate the meaningfulness and positiveness.
  
-    5) Which Artists have the most diverse music range and most followers? Using valence, energy and tempo.
+   5) Which Artists have the most diverse music range and most followers? Using valence, energy and tempo.
  
-    6) Is high valence songs more popular in recent time or is it low valence? Valence implies positivity.
+   6) Is high valence songs more popular in recent time or is it low valence? Valence implies positivity.
 
 Access for the in-depth description of each variable in set can be accessed [here]:
 
