@@ -41,5 +41,4 @@ This dataset consists of 22 columns (variables) and 1,556 rows (students). Data 
 (explain each variable meaning)
 
 ## Authors
-- Selene Huynh
-- Chandra Dasari
+
