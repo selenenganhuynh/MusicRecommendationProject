@@ -31,12 +31,7 @@ Access for the in-depth description of each variable in set can be accessed [her
 ## Built with: 
 - SQL Languages: SQL, MySQL, Oracle SQL
 
-- Tools:
- . Lucid Charts
- . Talend
- . Tableau
- . Oracle SQL DB
- . DB Browser for SQLite
+- Tools: Lucid Charts, Talend, Tableau, Oracle SQL DB, DB Browser for SQLite
 - Python:
  . Jupyter Notebook
 
