@@ -1,4 +1,4 @@
-# MusicRecommendationProject
+# Music Recommendation Project
 
 ## Background
 
