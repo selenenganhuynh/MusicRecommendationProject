@@ -1,0 +1,39 @@
+/*Select all data from the ‘Artist’ table
+SELECT * 
+FROM Artist;
+
+/*Select all songs from the “Artist” table whose Artist name is Taylor Swift.*/
+SELECT Song_Name 
+FROM Artist 
+WHERE Artist_Name = 'Taylor Swift';
+
+/*Select all songs from the “Artist” table whose Artist name is Ariana Grande.*/
+SELECT Song_Name 
+FROM Artist 
+WHERE Artist_Name = ‘Ariana Grande’;
+
+/*Select Song Title order by popularity from the ‘Song’ table*/
+SELECT Song_ID, Song_Name, Popularity 
+FROM Song 
+ORDER BY Popularity;
+
+/*Select Distinct Artist Name from table ‘Artist’*/
+SELECT DISTINCT Artist_Name 
+FROM Artist 
+ORDER BY Artist_Name;
+
+/*Select Distinct Song Name from table ‘Song’*/
+SELECT DISTINCT Song_Name 
+FROM Song
+ORDER BY Song_Name;
+
+/*Select Count(Distinct Song Name) from table ‘Song to calculate the total numbers of songs on the list’*/
+SELECT COUNT(DISTINCT Song_Name)  
+FROM Song 
+ORDER BY Song_Name;
+
+/*Retrieve a list with all artist name whose genre either ‘pop’ or ‘pop dance’*/
+SELECT DISTINCT Song_Name 
+FROM Song
+WHERE Genre_Type = ‘pop’ OR Genre_Type = ‘pop dance’
+ORDER BY Song_Name;
