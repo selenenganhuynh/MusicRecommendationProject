@@ -1,0 +1,31 @@
+CREATE TABLE IF NOT EXISTS Song (
+    Song_ID VARCHAR(22)  NOT NULL PRIMARY KEY,
+    Song_Name VARCHAR(91) CHARACTER SET utf8,
+    Released_Date VARCHAR(19) CHARACTER SET utf8,
+    Duration_ms INT,
+    Danceability NUMERIC(4, 3),
+    Energy NUMERIC(4, 3),
+    Loudness NUMERIC(5, 3),
+    Speechiness NUMERIC(5, 4),
+    Acousticness NUMERIC(7, 6),
+    Liveness NUMERIC(5, 4),
+    Valence NUMERIC(5, 4),
+    Tempo NUMERIC(6, 3),
+    Genre_Type VARCHAR(138) CHARACTER SET utf8,
+    Popularity INT
+);
+
+CREATE TABLE IF NOT EXISTS Artist (
+    Artist_ID INT NOT NULL PRIMARY KEY,
+    Artist_Name VARCHAR(150) NOT NULL,
+    Song_ID VARCHAR(22) NOT NULL REFERENCES Song(Song_ID),
+    Song_Name VARCHAR(91) CHARACTER SET utf8,
+    Genre_Type VARCHAR(138) CHARACTER SET utf8,
+    Artist_Followers INT
+ );
+
+CREATE TABLE IF NOT EXISTS Favorite_Song (
+    ID INT NOT NULL PRIMARY KEY,
+    Song_ID VARCHAR(22) NOT NULL REFERENCES Song(Song_ID),
+    Streams INT
+);
